@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
     res.render('index', {
-        title: "Hello from jenkins.....",
+        title: "Hello my first successful ci/cd pipeline",
         version: "0.0.0"
     });
 });
