@@ -1,4 +1,4 @@
-## nodejs-ejs web application ci/cd pipeline
+## Project Name: Nodejs-Ejs Web Application CI/CD Pipeline
 
 ### Project Description:
 
@@ -24,9 +24,9 @@ The deployed application can be accessed via the custom domain name configured i
 Every time a change is pushed to the GitHub repository, the Jenkins pipeline will automatically build a new Docker image and deploy the updated application on the EC2 instance. This setup ensures continuous integration and continuous deployment, streamlining the development process and reducing the risk of deployment issues. Users can access the application using a custom domain name managed by Route 53.
 
 ### Benefits:
-* Automation: Reduces manual intervention in building and deploying the application. \
-* Consistency: Docker ensures that the application runs consistently across different environments. \
-* Efficiency: Quick and reliable deployment process, enhancing development and release cycles. \
-* User-Friendly Access: Route 53 provides a custom domain name, making it easier for users to access the application. \
+-**Automation**: Reduces manual intervention in building and deploying the application. 
+- **Consistency**: Docker ensures that the application runs consistently across different environments. 
+- **Efficiency**: Quick and reliable deployment process, enhancing development and release cycles. 
+- **User-Friendly Access**: Route 53 provides a custom domain name, making it easier for users to access the application. 
 
 
