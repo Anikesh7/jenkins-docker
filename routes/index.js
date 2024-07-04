@@ -4,7 +4,7 @@ const router = express.Router();
 router.get('/', (req, res, next) => {
     res.render('index', {
         title: "Hello from jenkins :)",
-        version: "0.1.0"
+        version: "0.1.5"
     });
 });
 
